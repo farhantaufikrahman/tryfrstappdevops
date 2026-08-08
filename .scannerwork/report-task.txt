@@ -1,0 +1,6 @@
+projectKey=simple-project
+serverUrl=http://172.23.7.101:9000
+serverVersion=25.2.0.102705
+dashboardUrl=http://172.23.7.101:9000/dashboard?id=simple-project
+ceTaskId=befa2cc4-61e8-4a25-ae63-f9265acec7dc
+ceTaskUrl=http://172.23.7.101:9000/api/ce/task?id=befa2cc4-61e8-4a25-ae63-f9265acec7dc

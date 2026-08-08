@@ -1,0 +1,7 @@
+node_modules/
+.env
+coverage/
+sonar-project.properties
+sonarqube-25.2.0.102705.zip
+package-lock.json
+*.zip
