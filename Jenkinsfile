@@ -26,6 +26,13 @@ pipeline {
                     -Dsonar.sources=. \\
                     -Dsonar.host.url=http://172.23.7.101:9000 \\
                     -Dsonar.login=sqp_5bc1ba8094f75324edb18640431c269f918af8a8'''
+
+            }
+        }
+        stage('Approval') {
+            steps {
+                input message: 'Check Sonarqube server'
+                ok: 'Apporve'
             }
         }
         stage('Deploy') {
