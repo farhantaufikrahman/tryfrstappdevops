@@ -31,7 +31,7 @@ pipeline {
         }
         stage('Approval') {
             steps {
-                input message: 'Check Sonarqube server'
+                input message: 'Check Sonarqube server',
                 ok: 'Apporve'
             }
         }
